@@ -25,7 +25,7 @@ public class MainClass{
 		while((line=buff.readLine())!=null){
 			e = ri.parseLine(line);
 			if (e!=null)
-				l.add(ri.parseLine(line));
+				l.add(e);
 		}
 	}catch(Exception ex){
 	  ex.printStackTrace();
